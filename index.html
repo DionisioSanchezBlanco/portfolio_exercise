@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/fe028cbe7b.js"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav class="menu-container">
+            <ul class="menu menu-style">
+                <li class="li-pad"><a href="#about" class="item-list">ABOUT</a></li>
+                <li class="li-pad"><a href="#portfolio" class="item-list">PORTFOLIO</a></li>
+                <li class="li-pad"><a href="#contacts" class="item-list">CONTACTS</a></li>
+                <li class="li-pad"><a href="#" class="item-list">HOME</a></li>
+            </ul>
+            <i class="fa fa-bars fa-2x hamburger"></i>
+        </nav>
+        <div class="head-title">
+            <h1>D. Sánchez <br> Front-end developer</h1>
+        </div>
+    </header>
+    <section id="about">
+        <h2>About me</h2>
+        <div class="about-flex">
+            <div class="item-portfolio item-pf1">
+        <img src="img/clint-eastwood.jpg" alt="about me" class="img-about">
+            </div>
+            <div class="item-portfolio item-pf2">
+        <p>Trying to improve my skills with Hyperskill
+        Skills: HTML, CSS, JS, PHP, Python, VBScript, PowerShell</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+
+        <h2>Portfolio</h2>
+        <div class="portfolio-flex">
+            <div class="item-portfolio item-pf1">
+                <img src="img/project1.png" alt="World Wide Map" class="img-portfolio">
+                <p class="txt-pf">Flashcards</p>
+                <button class="open-window" id="window-flash">More info</button>
+            </div>
+            <div class="window">
+                <h2>Flashcards</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <button class="close-window" id="close-flash">Close</button>
+            </div>
+            <div class="item-portfolio item-pf2">
+                <img src="img/project2.png" alt="Piano" class="img-portfolio">
+                <p class="txt-pf">Virtual Piano</p>
+                <button class="open-window" id="window-piano">More info</button>
+            </div>
+            <div class="window">
+                <h2>Piano</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <button class="close-window" id="close-piano">Close</button>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <p class="txt-pf">You can contact me at <a href="mail:test@test.com">test@test.com</a> or <a href="tel:+34666111222">+34666111222</a></p>
+        <a href="#"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-pinterest-square fa-4x" aria-hidden="true"></i></a>
+    </section>
+    <footer>
+        <h3>D.SÁNCHEZ</h3>
+        <h3>2021</h3>
+    </footer>
+
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
